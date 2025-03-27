@@ -18,7 +18,6 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
 }
 
 header {
@@ -27,6 +26,7 @@ header {
     padding: 0px 20px 0px 20px;
     border-left: 30px solid #fff;
     border-right: 30px solid #fff;
+    align-items: center;
 }
 
 nav#indice {
@@ -35,8 +35,9 @@ nav#indice {
     flex-grow: 1;
     align-items: center;
     gap: 20px;
-    padding: 10px 0;
+    padding: 10px 0px;
     width: 100%;
+    margin-right: 420px;
 }
 .containerheader {
     display: flex;

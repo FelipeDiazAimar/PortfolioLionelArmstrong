@@ -7,16 +7,13 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <main>
         <div id="preloader">
             <div class="spinner"></div>
         </div>
     <header>
-        <nav id="indice">
+        <nav id="indice" class="text">
             <h3 class="tituloportfolio">
-                <a href="index.html" style="text-decoration: none; color: inherit;">
-                    👤 Portfolio de Lionel Armstrong
-                </a>
+                <a href="index.html" style="text-decoration: none; color: inherit;">👤 Portfolio de Lionel Armstrong</a>
             </h3>            
             <div class="itemh"><a href="skills.html">Habilidades</a></div>
             <div class="itemh"><a href="experience.html">Experiencia</a></div>
@@ -24,37 +21,38 @@
             <button id="darkmode">🌙</button>
         </nav>
     </header>
-
+    <main>
     <section id="contact">
         <div class="text">
             <h2>Contáctame 📫</h2>
             <small>Interesado en trabajar juntos? Completa el formulario debajo con un poco de información acerca de tu proyecto y yo te contestaré lo más pronto que pueda. Por favor, permíteme unos días para responderte.</small>
-                <form method="post" action="https://formspree.io/f/mrbplqpz">
-                    <fieldset>
-                        <div class="container">
-                            <div class="Area"><label>Nombre:
-                                <input type="text" name="name" placeholder="Tu nombre" required>
-                            </label></div>
-                            <div class="Area"><label>Teléfono:
-                                <input type="tel" name="phone" placeholder="Tu número de teléfono" required>
-                            </label></div>
-                            <div class="Area"><label>Email:
-                                <input type="email" name="email" placeholder="Tu email" required>
-                            </label></div>
-                        </div><br>
-                            <div class="containermensaje"><label>Mensaje:
-                                <textarea name="message" placeholder="Tu mensaje" required></textarea>
-                            </label></div><br>
-                        <div>
-                            <button class="botonform" type="submit">Enviar</button>
-                        </div>
-                    </fieldset>
-                </form>   
-            </div>
+            <form method="post" action="https://formspree.io/f/mrbplqpz">
+                <fieldset>
+                    <div class="container">
+                        <div class="Area"><label>Nombre:
+                            <input type="text" name="name" placeholder="Tu nombre" required>
+                        </label></div>
+                        <div class="Area"><label>Teléfono:
+                            <input type="tel" name="phone" placeholder="Tu número de teléfono" required>
+                        </label></div>
+                        <div class="Area"><label>Email:
+                            <input type="email" name="email" placeholder="Tu email" required>
+                        </label></div>
+                    </div><br>
+                    <div class="containermensaje"><label>Mensaje:
+                        <textarea name="message" placeholder="Tu mensaje" required></textarea>
+                    </label></div><br>
+                    <div>
+                        <button class="botonform" type="submit">Enviar</button>
+                    </div>
+                </fieldset>
+            </form>   
+        </div>
     </section>
+
     <footer>
         <div class="text">
-        <h4 class="titulofooter">Ponte en contacto</h4>
+            <h4 class="titulofooter">Ponte en contacto</h4>
             <div class="infocontacto">
                 <div class="Columna">
                     <span>lionelarmstrong@gmail.com</span>
@@ -71,26 +69,17 @@
                 </div>
             </div>
             <div class="logos">
-                <div><a href="https://www.x.com">
-                    <img src="img/logotwitter.png" alt="Logo GitHub" target="_blank">
-                </a></div>
-                <div><a href="https://www.LinkedIn.com">
-                    <img src="img/logolinkedin.png" alt="Logo LinkedIn" target="_blank">
-                </a></div>  
-                <div><a href="https://www.GitHub.com">
-                    <img src="img/logogithub.png" alt="Logo GitHub" target="_blank">
-                </a></div>     
-                <div><a href="https://www.instagram.com">
-                    <img src="img/logoinstagram.png" alt="Logo GitHub" target="_blank">
-                </a></div>
-                <div><a href="https://www.facebook.com">
-                    <img src="img/logofacebook.png" alt="Logo GitHub" target="_blank">
-                </a></div>
+                <a href="https://www.x.com" target="_blank"><img src="img/logotwitter.png" alt="Logo Twitter"></a>
+                <a href="https://www.linkedin.com" target="_blank"><img src="img/logolinkedin.png" alt="Logo LinkedIn"></a>
+                <a href="https://www.github.com" target="_blank"><img src="img/logogithub.png" alt="Logo GitHub"></a>
+                <a href="https://www.instagram.com" target="_blank"><img src="img/logoinstagram.png" alt="Logo Instagram"></a>
+                <a href="https://www.facebook.com" target="_blank"><img src="img/logofacebook.png" alt="Logo Facebook"></a>
             </div>
-            </div>          
-            <small class="fin">Portfolio - Lionel Armstrong, 2025</small>
+        </div>
+        <small class="fin">Portfolio - Lionel Armstrong, 2025</small>
     </footer>
     </main>
+
     <script src="js/darkmode.js" defer></script>
     <script src="js/preloader.js"></script>
 </body>
