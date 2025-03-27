@@ -189,7 +189,7 @@ ul li {
 
 form{
     margin-top: 10px;
-    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 4px 14px #0000004d;
 }
 
 #projects ul{
@@ -287,6 +287,25 @@ footer {
 
 svg{
     width: 40px;
+}
+
+.containerproyectsbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.proyectsbutton{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: #0071e3;
+    border-radius: 980px;
+    width: 100px;
+    text-align: center;
+    padding: 11px 21px;
+    font-size: 16px;
+    white-space: nowrap;
 }
 
 /* Estilos del Preloader */
