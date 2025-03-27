@@ -76,25 +76,25 @@ a{
 
 .container1 {
     display: flex;
-    align-items: center; /* Alinea verticalmente la imagen con el texto */
-    justify-content: space-between; /* Separa el texto y la imagen */
-    flex-wrap: wrap; /* Permite que los elementos se ajusten si la pantalla es pequeña */
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
     padding-top: 20px;
 }
 
 .containerimg img {
     border-radius: 20px;
-    width: 150px;
-    max-width: 100%; /* Asegura que la imagen no se salga de su contenedor */
+    width: 200px;
+    max-width: 100%;
 }
 
 .text-content {
-    flex: 1; /* Hace que el texto ocupe todo el espacio disponible */
-    min-width: 200px; /* Evita que el texto se colapse demasiado en pantallas pequeñas */
+    flex: 1;
+    min-width: 200px;
 }
 
 .containerimg {
-    margin-left: 20px; /* Separa la imagen del texto */
+    margin-left: 20px;
 }
 
 
@@ -189,7 +189,7 @@ ul li {
 
 form{
     margin-top: 10px;
-    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.3); /* Sombra */
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.3);
 }
 
 #projects ul{
@@ -280,18 +280,69 @@ footer {
     margin: 10px;
 }
 
+.fin{
+    display: block;
+    text-align: center;
+}
+
+svg{
+    width: 40px;
+}
+
+/* Estilos del Preloader */
+#preloader {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.spinner {
+    width: 50px;
+    height: 50px;
+    border: 5px solid #00000033;
+    border-top: 5px solid #0068cf;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+#welcomeMessage {
+    font-size: 20px;
+    font-weight: bold;
+    color: #0068cf;
+    margin-bottom: 20px;
+    animation: fadeIn 2s ease-out;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
 
 /*Dark-mode*/
 
 #darkmode {
     display: block;
     margin: auto;
+    margin-left: 20px;
     color: white;
     background-color: #0071e3;
     border-radius: 980px;
-    width: 50px; /* Ajusté al valor más pequeño */
+    text-align: center;
+    width: 50px;
     border: none;
-    padding: 10px; /* Ajusté al valor más pequeño */
+    padding: 10px;
     cursor: pointer;
     font-size: 18px;
 }
@@ -353,4 +404,3 @@ body.darkmode footer {
     color: #6e6e73;
     padding: 10px;
 }
->>>>>>> dbc1a27 (Descripción de los cambios realizados)
